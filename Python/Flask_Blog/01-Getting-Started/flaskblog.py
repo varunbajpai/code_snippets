@@ -15,3 +15,6 @@ def about():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port = 5000,debug=True).  #This will bind the host to the current ip on the port 5000
+    
+    #If we do not use debug = True we will need to restart the server each and every time we make code changes, This takes care 
+    #of dynamic syncing of the code, Hence we need not re-start the app again and again. Chnages will be reflected immediately
